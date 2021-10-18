@@ -17,7 +17,7 @@
     <link rel="icon" href="/favicon.ico" >
     
     
-<link rel="stylesheet" href="/css/style.css?v=1634561847794.css">
+<link rel="stylesheet" href="/css/style.css?v=1634563356783.css">
 
     <!--[if lt IE 9]>
     
@@ -120,7 +120,39 @@
         <time datetime="2021-10-18T12:53:05.000Z">2021-10-18</time>
     </p>
     <div id="JELON__articlePostContent" class="post-content">
-        <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3>
+        <h1 id="我的新文章"><a href="#我的新文章" class="headerlink" title="我的新文章"></a>我的新文章</h1><h3 id="Java创建一个简单计算器"><a href="#Java创建一个简单计算器" class="headerlink" title="Java创建一个简单计算器"></a>Java创建一个简单计算器</h3><pre><code>public class 简单计算器&#123;
+public static void(String[] args)&#123;
+    java.util.Scanner s=new java.util.Scanner(System.in);
+    System.out.println(&quot;欢迎使用简单计算器&quot;)；
+    System.out.println(&quot;请输入一个数字：&quot;)；
+    int a=s.nextInt();
+    System.out.println(&quot;请输入一个运算符：&quot;)；
+    String b=s.nextInt();
+    System.out.println(&quot;请输入另一个数字：&quot;)；
+    int c=s.nextInt();
+    int result=0
+    switch(b)&#123;
+        case &quot;+&quot;:
+        result=a+c;    
+        break;
+        
+        case &quot;-&quot;:
+        result=a-c;
+        break;
+        
+        case &quot;*&quot;:
+        result=a*c;
+        break;
+        
+        default:
+        System.out.println(&quot;不支持&quot;);
+    &#125;
+    System.out.println(&quot;结果是：&quot;);
+    System.out.print(result);
+&#125;
+</code></pre>
+<p>}</p>
+
     </div>
     <p class="eof">-- EOF --</p>
     <p class="post-meta">
@@ -259,7 +291,7 @@
     <!--博客js脚本 -->
     <!-- 这里放网站js脚本 -->
 
-<script src="/js/main.js?v=1634561847795.js"></script>
+<script src="/js/main.js?v=1634563356784.js"></script>
 
 
 </body>
