@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=11,IE=10,IE=9,IE=8" >
     <meta name="baidu-site-verification" content="dIcXMeY8Ya" />
     
-    <title>我的新文章 | 赛尔号船长</title>
+    <title>创建一个Java计算器 | 赛尔号船长</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" >
     <meta name="keywords" content="Jelon, 前端, Web, 张德龙, 前端开发" >
     <meta name="description" content="Jelon个人前端小站" >
@@ -17,7 +17,7 @@
     <link rel="icon" href="/favicon.ico" >
     
     
-<link rel="stylesheet" href="/css/style.css?v=1634639662346.css">
+<link rel="stylesheet" href="/css/style.css?v=1634639851661.css">
 
     <!--[if lt IE 9]>
     
@@ -50,19 +50,19 @@
         <div class="dropnav iconfont icon-nav" id="JELON__btnDropNav"></div>
         <ul class="menu hidden" id="JELON__menu">
             
-            <li rel="/2021/10/18/%E6%88%91%E7%9A%84%E6%96%B0%E6%96%87%E7%AB%A0/index.html" class="item ">
+            <li rel="/2021/10/18/Java_jsq/index.html" class="item ">
                 <a href="/" title="首页" class="iconfont icon-home">&nbsp;首页</a>
             </li>
             
-            <li rel="/2021/10/18/%E6%88%91%E7%9A%84%E6%96%B0%E6%96%87%E7%AB%A0/index.html" class="item ">
+            <li rel="/2021/10/18/Java_jsq/index.html" class="item ">
                 <a href="/archives/" title="归档" class="iconfont icon-archives">&nbsp;归档</a>
             </li>
             
-            <li rel="/2021/10/18/%E6%88%91%E7%9A%84%E6%96%B0%E6%96%87%E7%AB%A0/index.html" class="item ">
+            <li rel="/2021/10/18/Java_jsq/index.html" class="item ">
                 <a href="/about/" title="关于" class="iconfont icon-staff">&nbsp;关于</a>
             </li>
             
-            <li rel="/2021/10/18/%E6%88%91%E7%9A%84%E6%96%B0%E6%96%87%E7%AB%A0/index.html" class="item ">
+            <li rel="/2021/10/18/Java_jsq/index.html" class="item ">
                 <a href="/comment/" title="留言" class="iconfont icon-comment">&nbsp;留言</a>
             </li>
             
@@ -113,14 +113,14 @@
 <!-- 文章 -->
 <article class="post article">
     <header class="text-center">
-        <h3 class="post-title"><span>我的新文章</span></h3>
+        <h3 class="post-title"><span>创建一个Java计算器</span></h3>
     </header>
     <p class="post-meta text-center">
         Jelon 发表于
         <time datetime="2021-10-18T12:53:05.000Z">2021-10-18</time>
     </p>
     <div id="JELON__articlePostContent" class="post-content">
-        <h1 id="Java创建一个简单计算器"><a href="#Java创建一个简单计算器" class="headerlink" title="Java创建一个简单计算器"></a>Java创建一个简单计算器</h1><hr>
+        <h1 id="Java创建一个简单计算器。"><a href="#Java创建一个简单计算器。" class="headerlink" title="Java创建一个简单计算器。"></a>Java创建一个简单计算器。</h1><hr>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> 简单计算器</span>&#123;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="title">void</span><span class="params">(String[] args)</span></span>&#123;</span><br><span class="line">		java.util.Scanner s=<span class="keyword">new</span> java.util.Scanner(System.in);</span><br><span class="line">		System.out.println(<span class="string">&quot;欢迎使用简单计算器&quot;</span>)；</span><br><span class="line">		System.out.println(<span class="string">&quot;请输入一个数字：&quot;</span>)；</span><br><span class="line">		<span class="keyword">int</span> a=s.nextInt();</span><br><span class="line">		System.out.println(<span class="string">&quot;请输入一个运算符：&quot;</span>)；</span><br><span class="line">		String b=s.nextInt();</span><br><span class="line">		System.out.println(<span class="string">&quot;请输入另一个数字：&quot;</span>)；</span><br><span class="line">		<span class="keyword">int</span> c=s.nextInt();</span><br><span class="line">		<span class="keyword">int</span> result=<span class="number">0</span></span><br><span class="line">		<span class="keyword">switch</span>(b)&#123;</span><br><span class="line">			<span class="keyword">case</span> <span class="string">&quot;+&quot;</span>:</span><br><span class="line">			result=a+c;	</span><br><span class="line">			<span class="keyword">break</span>;</span><br><span class="line">			</span><br><span class="line">			<span class="keyword">case</span> <span class="string">&quot;-&quot;</span>:</span><br><span class="line">			result=a-c;</span><br><span class="line">			<span class="keyword">break</span>;</span><br><span class="line">			</span><br><span class="line">			<span class="keyword">case</span> <span class="string">&quot;*&quot;</span>:</span><br><span class="line">			result=a*c;</span><br><span class="line">			<span class="keyword">break</span>;</span><br><span class="line">			</span><br><span class="line">			<span class="keyword">default</span>:</span><br><span class="line">			System.out.println(<span class="string">&quot;不支持&quot;</span>);</span><br><span class="line">		&#125;</span><br><span class="line">		System.out.println(<span class="string">&quot;结果是：&quot;</span>);</span><br><span class="line">		System.out.print(result);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
     </div>
     <p class="eof">-- EOF --</p>
@@ -276,7 +276,7 @@
     <!--博客js脚本 -->
     <!-- 这里放网站js脚本 -->
 
-<script src="/js/main.js?v=1634639662348.js"></script>
+<script src="/js/main.js?v=1634639851662.js"></script>
 
 
 </body>
